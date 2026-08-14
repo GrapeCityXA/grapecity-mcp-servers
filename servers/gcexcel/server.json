@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "cn.com.grapecity/gcexcel",
+  "title": "GrapeCity GcExcel",
+  "description": "GrapeCity Software MCP for GcExcel docs, examples, and product assistance.",
+  "version": "1.0.0-beta.1",
+  "repository": {
+    "url": "https://github.com/GrapeCityXA/grapecity-mcp-servers",
+    "source": "github",
+    "subfolder": "servers/gcexcel"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.grapecity.com.cn/mcp/gcexcel"
+    }
+  ]
+}

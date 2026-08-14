@@ -1,0 +1,22 @@
+{
+  "name": "@grapecity-software/mcp-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official GrapeCity MCP server metadata and integration documentation.",
+  "type": "module",
+  "scripts": {
+    "check": "node ./scripts/validate-server-json.mjs",
+    "test": "npm run check"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "grapecity",
+    "spreadjs",
+    "gcexcel"
+  ],
+  "license": "MIT"
+}

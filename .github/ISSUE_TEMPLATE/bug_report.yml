@@ -1,0 +1,21 @@
+name: MCP listing or integration issue
+description: Report a problem with a GrapeCity MCP listing or integration guide.
+title: "[MCP] "
+labels:
+  - bug
+body:
+  - type: input
+    id: server
+    attributes:
+      label: Server
+      description: Which server is affected?
+      placeholder: cn.com.grapecity/gcexcel
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Include the client, date, and reproducible steps. Do not include secrets.
+    validations:
+      required: true
