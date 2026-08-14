@@ -8,6 +8,9 @@ The MCP servers are hosted by GrapeCity and are accessed over
 Streamable HTTP; this repository does not contain proprietary product
 implementations.
 
+Chinese documentation:
+[docs/README.zh-CN.md](docs/README.zh-CN.md)
+
 ## Available servers
 
 <!-- mcp-name: cn.com.grapecity/gcexcel -->
@@ -23,6 +26,8 @@ assistance.
 - Authentication: GrapeCity MCP token sent in the `token` header
 
 See [the GcExcel server guide](servers/gcexcel/README.md).
+For Chinese-language marketplaces, use
+[README.zh-CN.md](servers/gcexcel/README.zh-CN.md).
 
 <!-- mcp-name: cn.com.grapecity/spreadjs -->
 
@@ -37,6 +42,8 @@ assistance.
 - Authentication: GrapeCity MCP token sent in the `token` header
 
 See [the SpreadJS server guide](servers/spreadjs/README.md).
+For Chinese-language marketplaces, use
+[README.zh-CN.md](servers/spreadjs/README.zh-CN.md).
 
 ## Quick start
 
