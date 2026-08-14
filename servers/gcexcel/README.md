@@ -9,7 +9,7 @@ product assistance through a remote Streamable HTTP MCP server.
 
 - Registry name: `cn.com.grapecity/gcexcel`
 - URL: `https://mcp.grapecity.com.cn/mcp/gcexcel`
-- Authentication: `Authorization: Bearer <your-gcexcel-mcp-key>`
+- Authentication: `token: <your-gcexcel-mcp-token>`
 
 Keep the key in the MCP client secret store or an environment variable. Do
 not commit it to a repository, issue, prompt, or configuration file shared

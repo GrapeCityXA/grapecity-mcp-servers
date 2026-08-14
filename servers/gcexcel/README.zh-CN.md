@@ -10,7 +10,7 @@
 - Registry 名称：`cn.com.grapecity/gcexcel`
 - 服务地址：`https://mcp.grapecity.com.cn/mcp/gcexcel`
 - 传输协议：Streamable HTTP
-- 认证方式：`Authorization: Bearer <你的 GcExcel MCP Key>`
+- 认证方式：`token: <你的 GcExcel MCP Token>`
 
 ## 接入示例
 
@@ -21,7 +21,7 @@
       "type": "http",
       "url": "https://mcp.grapecity.com.cn/mcp/gcexcel",
       "headers": {
-        "Authorization": "Bearer ${GRAPECITY_MCP_KEY}"
+        "token": "${GRAPECITY_MCP_TOKEN}"
       }
     }
   }

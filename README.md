@@ -20,7 +20,7 @@ assistance.
 - Registry name: `cn.com.grapecity/gcexcel`
 - Endpoint: `https://mcp.grapecity.com.cn/mcp/gcexcel`
 - Transport: Streamable HTTP
-- Authentication: GrapeCity MCP key sent as a Bearer token
+- Authentication: GrapeCity MCP token sent in the `token` header
 
 See [the GcExcel server guide](servers/gcexcel/README.md).
 
@@ -34,7 +34,7 @@ assistance.
 - Registry name: `cn.com.grapecity/spreadjs`
 - Endpoint: `https://mcp.grapecity.com.cn/mcp/spreadjs`
 - Transport: Streamable HTTP
-- Authentication: GrapeCity MCP key sent as a Bearer token
+- Authentication: GrapeCity MCP token sent in the `token` header
 
 See [the SpreadJS server guide](servers/spreadjs/README.md).
 
@@ -42,7 +42,7 @@ See [the SpreadJS server guide](servers/spreadjs/README.md).
 
 Add one or both servers to an MCP client that supports remote Streamable
 HTTP servers. Use the following shape and replace the placeholder with your
-GrapeCity MCP key:
+GrapeCity MCP token:
 
 ```json
 {
@@ -51,14 +51,14 @@ GrapeCity MCP key:
       "type": "http",
       "url": "https://mcp.grapecity.com.cn/mcp/gcexcel",
       "headers": {
-        "Authorization": "Bearer ${GRAPECITY_MCP_KEY}"
+        "token": "${GRAPECITY_MCP_TOKEN}"
       }
     },
     "grapecity-spreadjs": {
       "type": "http",
       "url": "https://mcp.grapecity.com.cn/mcp/spreadjs",
       "headers": {
-        "Authorization": "Bearer ${GRAPECITY_MCP_KEY}"
+        "token": "${GRAPECITY_MCP_TOKEN}"
       }
     }
   }

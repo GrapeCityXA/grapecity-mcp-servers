@@ -21,7 +21,7 @@ directory or client marketplace. The submission packet should contain:
 
 1. The server's `name`, `title`, `description`, and current `version`.
 2. The server URL from `server.json`.
-3. The authentication requirement: `Authorization: Bearer <MCP key>`.
+3. The authentication requirement: `token: <MCP token>`.
 4. A link to this repository and the server-specific README.
 5. A support contact and a link to the security policy.
 

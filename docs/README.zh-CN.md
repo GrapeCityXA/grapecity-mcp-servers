@@ -9,7 +9,7 @@ SpreadJS 或 GcExcel 的产品实现代码。
 - `cn.com.grapecity/spreadjs`
 
 服务通过 Streamable HTTP 访问，并使用
-`Authorization: Bearer <MCP key>` 认证。机器可读的 Registry 元数据位于
+`token: <MCP token>` 认证。机器可读的 Registry 元数据位于
 `servers/*/server.json`，对外发布前运行：
 
 ```bash

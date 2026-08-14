@@ -11,7 +11,7 @@ configuration shape varies by client, but the important values are:
 Each request must include:
 
 ```http
-Authorization: Bearer <your-grapecity-mcp-key>
+token: <your-grapecity-mcp-token>
 ```
 
 ## Generic MCP JSON
@@ -23,14 +23,14 @@ Authorization: Bearer <your-grapecity-mcp-key>
       "type": "http",
       "url": "https://mcp.grapecity.com.cn/mcp/gcexcel",
       "headers": {
-        "Authorization": "Bearer ${GRAPECITY_MCP_KEY}"
+        "token": "${GRAPECITY_MCP_TOKEN}"
       }
     },
     "grapecity-spreadjs": {
       "type": "http",
       "url": "https://mcp.grapecity.com.cn/mcp/spreadjs",
       "headers": {
-        "Authorization": "Bearer ${GRAPECITY_MCP_KEY}"
+        "token": "${GRAPECITY_MCP_TOKEN}"
       }
     }
   }

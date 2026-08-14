@@ -9,7 +9,7 @@ product assistance through a remote Streamable HTTP MCP server.
 
 - Registry name: `cn.com.grapecity/spreadjs`
 - URL: `https://mcp.grapecity.com.cn/mcp/spreadjs`
-- Authentication: `Authorization: Bearer <your-spreadjs-mcp-key>`
+- Authentication: `token: <your-spreadjs-mcp-token>`
 
 Keep the key in the MCP client secret store or an environment variable. Do
 not commit it to a repository, issue, prompt, or configuration file shared
