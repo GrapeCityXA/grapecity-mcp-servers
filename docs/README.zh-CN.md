@@ -8,6 +8,9 @@ SpreadJS 或 GcExcel 的产品实现代码。
 - `cn.com.grapecity/gcexcel`
 - `cn.com.grapecity/spreadjs`
 
+使用服务前，请先访问
+[葡萄城 MCP 门户](https://mcp.grapecity.com.cn/) 登录并获取 MCP Token。
+
 服务通过 Streamable HTTP 访问，并使用
 `token: <MCP token>` 认证。机器可读的 Registry 元数据位于
 `servers/*/server.json`，对外发布前运行：

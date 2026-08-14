@@ -22,6 +22,7 @@ GcExcel product installation is not required to use the service.
 - Transport: Streamable HTTP
 - Authentication: `token: <your-gcexcel-mcp-token>`
 - Current version: `1.0.0-beta.1`
+- Get a token: [GrapeCity MCP portal](https://mcp.grapecity.com.cn/)
 
 ## Configuration
 

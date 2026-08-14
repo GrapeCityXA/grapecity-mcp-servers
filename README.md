@@ -11,6 +11,10 @@ implementations.
 Chinese documentation:
 [docs/README.zh-CN.md](docs/README.zh-CN.md)
 
+Before configuring a server, visit the
+[GrapeCity MCP portal](https://mcp.grapecity.com.cn/) to sign in and obtain
+your MCP token.
+
 ## Available servers
 
 <!-- mcp-name: cn.com.grapecity/gcexcel -->
@@ -24,6 +28,7 @@ assistance.
 - Endpoint: `https://mcp.grapecity.com.cn/mcp/gcexcel`
 - Transport: Streamable HTTP
 - Authentication: GrapeCity MCP token sent in the `token` header
+- Token portal: [mcp.grapecity.com.cn](https://mcp.grapecity.com.cn/)
 
 See [the GcExcel server guide](servers/gcexcel/README.md).
 For Chinese-language marketplaces, use
@@ -40,6 +45,7 @@ assistance.
 - Endpoint: `https://mcp.grapecity.com.cn/mcp/spreadjs`
 - Transport: Streamable HTTP
 - Authentication: GrapeCity MCP token sent in the `token` header
+- Token portal: [mcp.grapecity.com.cn](https://mcp.grapecity.com.cn/)
 
 See [the SpreadJS server guide](servers/spreadjs/README.md).
 For Chinese-language marketplaces, use

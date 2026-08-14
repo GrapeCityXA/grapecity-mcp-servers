@@ -23,6 +23,7 @@ GcExcel 产品包。
 - 传输协议：Streamable HTTP
 - 认证方式：`token: <你的 GcExcel MCP Token>`
 - 当前版本：`1.0.0-beta.1`
+- Token 获取：[葡萄城 MCP 门户](https://mcp.grapecity.com.cn/)
 
 ## 接入示例
 

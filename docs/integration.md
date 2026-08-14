@@ -3,6 +3,10 @@
 The GrapeCity MCP servers are remote Streamable HTTP servers. The exact
 configuration shape varies by client, but the important values are:
 
+Get a GrapeCity MCP token from the
+[GrapeCity MCP portal](https://mcp.grapecity.com.cn/) before configuring a
+client.
+
 | Server | URL |
 | --- | --- |
 | GcExcel | `https://mcp.grapecity.com.cn/mcp/gcexcel` |
